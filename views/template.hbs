@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Call Bharat Ahuja</title>
+    <style>
+        table {
+            border: 1px solid black;
+            width: 50%;
+            text-align: left;
+        }
+        td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather In {{ h1 }}</h1>
+    
+    <h2>{{ current_temperature }} °F</h2>
+
+    <h3>{{ sky_info }}</h3>
+
+    <table>
+    <tr>
+        <td>City</td>
+        <td>{{ city }}</td>
+    </tr>
+
+    <tr>
+        <td>Weather</td>
+        <td>{{ weather }}</td>
+    </tr>
+
+    <tr>
+        <td>Description</td>
+        <td>{{ description }}</td>
+    </tr>
+
+    <tr>
+        <td>Current Temperature</td>
+        <td>{{ curr_temp }} °F</td>
+    </tr>
+
+    <tr>
+        <td>Maximum Temperature</td>
+        <td>{{ max_temp }} °F</td>
+    </tr>
+
+    <tr>
+        <td>Minimum Temperature</td>
+        <td>{{ min_temp }} °F</td>
+    </tr>
+
+    <tr>
+        <td>Pressure</td>
+        <td>{{ pressure }} hpa</td>
+    </tr>
+
+    <tr>
+        <td>Humidity</td>
+        <td>{{ humidity }} %</td>
+    </tr>
+
+    <tr>
+        <td>Visibility</td>
+        <td>{{ visibility }}</td>
+    </tr>
+
+    </table>
+
+</body>
+</html>

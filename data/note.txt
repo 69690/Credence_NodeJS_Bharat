@@ -1,0 +1,11 @@
+The data.json file read from the API is automatically created here once app.js is running.
+
+Once app.js runs, data from the API call is fetched and stored here as data.json 
+
+NOTE:
+1. data.json file does not exist initially
+2. After running app.js, data.json file is created here
+3. The data.json file keeps updating everytime app.js is run. 
+4. data.json file can be deleted.
+
+data.json contains the data that is fetched from the API call while running app.js in realtime.
