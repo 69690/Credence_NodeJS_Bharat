@@ -6,9 +6,9 @@ Steps:
 2. Go to localhost:3000 in your web browser to view the output.
 
 Dependencies:
-nodejs
-express
-axios
-fs
-axios-savefile
+nodejs,
+express,
+axios,
+fs,
+axios-savefile,
 express-handlebars
